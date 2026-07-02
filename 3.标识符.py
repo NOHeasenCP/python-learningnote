@@ -8,5 +8,5 @@
 #1num=1(数字开头)
 age=18
 AGE=17
-agE=19
+agE=16
 print(age,AGE,agE)#区分大小写
