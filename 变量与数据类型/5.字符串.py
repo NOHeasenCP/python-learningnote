@@ -45,3 +45,17 @@ name = "easen"
 age = str(18)#用str()函数将整数类型转换为字符串类型+
 print("My name is " + name + " and I am " + age + " years old.")
 
+########
+#通过占位符来实现字符串的拼接
+########
+name = "alan"
+age = 20
+print("My name is %s and I am %s years old." % (name, age))#前面有几个占位符，后面就要有几个变量，且顺序要对应
+
+##########
+#用f"内容{变量/表达式}"的方式来实现字符串的拼接
+##########
+name = "L"
+age = "21"
+print(f"My name is {name} and I am {age} years old.")
+print(f"{name}?,{age}?")
