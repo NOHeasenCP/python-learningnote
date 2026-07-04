@@ -22,6 +22,6 @@ if   n<10 :
     print(f"{n}小于10")
 elif n>20:
     print(f"{n}小于10")
-else: print(f"{n}不在10-20之间")
+else: print(f"{n}在10-20之间")
 
 
